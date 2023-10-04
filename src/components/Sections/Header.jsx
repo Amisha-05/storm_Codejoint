@@ -3,7 +3,7 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/header-img.png";
+import Hero from "../../assets/img/hero.png";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 import { Link } from "react-router-dom";
@@ -14,7 +14,7 @@ export default function Header() {
 			<LeftSide className="flexCenter">
 				<div>
 					<h1 className="extraBold font60">
-						We Care, <br /> She Wins
+						Empowering Moms <br /> Enriching Life
 					</h1>
 					<HeaderP className="font13 semiBold">
 						We here provide healthcare solutions to women. We cover blogs on
@@ -33,9 +33,7 @@ export default function Header() {
 				<ImageWrapper>
 					<Img
 						className="radius8"
-						src={
-							"https://user-images.githubusercontent.com/73426684/211127930-04c39bb4-df72-4b1b-aa72-358275b49f39.png"
-						}
+						src={Hero}
 						alt="office"
 						style={{ zIndex: 9 }}
 					/>
